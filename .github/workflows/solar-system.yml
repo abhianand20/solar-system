@@ -374,7 +374,8 @@ jobs:
         
         - name : Check files 
           run: |
-            
+        
+          
             cat kubernetes/production/*.yaml
         - name: create secrets
           run: |
